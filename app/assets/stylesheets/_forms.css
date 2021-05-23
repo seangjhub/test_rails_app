@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    padding-left: 20px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+.invalid-feedback {
+    display: block;
+    margin-top: 3px;
+    color: red;
+}
+
+.submit-button {
+    margin-top: 10px;
+    margin-left: -10px;
+}

@@ -1,0 +1,8 @@
+<div class="container">
+  <% if user_logged_in? %>
+    <a href="<%= sessions_path %>" data-method="delete" rel="nofollow">Logout</a>
+  <% else %>
+    <h3>Login to your account</h3>
+    <%= render 'form' %>
+  <% end %>
+</div>
